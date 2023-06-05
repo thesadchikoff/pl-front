@@ -1,0 +1,71 @@
+.button {
+	text-align: center;
+	width: 100%;
+	background-color: #1D4FFF;
+	color: #ffffff;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 40px;
+	transition: background-color .3s ease-in-out;
+	cursor: pointer;
+
+	&:focus {
+		outline: 3px solid #C3C5FF;
+	}
+
+	&:active {
+		outline: 3px solid #C3C5FF;
+	}
+
+	&:hover {
+		background-color: #436afa;
+	}
+}
+
+.outline-btn {
+
+
+	text-align: center;
+	background-color: #caccfa;
+	color: #1D4FFF;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 40px;
+	transition: background-color .3s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #aeb0fc;
+	}
+
+	&:active {
+		background-color: #c0c2ff;
+	}
+}
+
+.nobag-btn {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	text-align: center;
+	background-color: inherit;
+	color: #1D4FFF;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 40px;
+	transition: background-color .3s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #caccfa;
+	}
+
+	&:active {
+		background-color: #a0a3fd;
+	}
+}

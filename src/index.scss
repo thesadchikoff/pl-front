@@ -1,0 +1,80 @@
+@import url('/public/fonts/gilroy.css');
+@import url('/public/fonts/sfpro.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #F2F2F2;
+}
+
+.effect {
+	cursor: pointer;
+	padding: 4px 8px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: all .2s ease-in;
+
+	&:hover {
+		background-color: #aaa;
+
+		path {
+			fill: white;
+		}
+	}
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+
+	background: rgb(209, 224, 249);
+	/* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgb(107, 107, 228);
+	/* цвет плашки */
+	border-radius: 20px;
+	/* закругления плашки */
+	border: 3px solid rgb(209, 224, 249);
+	/* padding вокруг плашки */
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.m-hidden {
+	overflow: hidden;
+}
+
+.gilroy {
+	font-family: 'Gilroy', serif;
+}
+
+.sfpro {
+	font-family: 'SFProText', serif;
+}
+
+body {
+	font-family: 'SFProText', serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px 0 10px;
+}

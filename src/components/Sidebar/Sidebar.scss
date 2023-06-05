@@ -1,0 +1,16 @@
+.active {
+	background: rgba(244, 240, 240, 0.32);
+	transition: all .2s ease-in;
+
+	path {
+		fill: #1645ef;
+	}
+}
+
+.nav-link {
+	transition: all .2s ease-in;
+
+	&:hover {
+		background: rgba(247, 245, 245, 0.32);
+	}
+}

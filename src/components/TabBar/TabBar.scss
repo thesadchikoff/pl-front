@@ -1,0 +1,33 @@
+.bar--bottom {
+	bottom: 0;
+	z-index: 1000;
+}
+
+.bar {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.tabbar {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	box-shadow: 0 -1px #0000000a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.tabbar__content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
